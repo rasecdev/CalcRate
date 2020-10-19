@@ -52,6 +52,7 @@ namespace CalcRate
 
             app.UseSwaggerUI(c =>
             {
+                c.RoutePrefix = string.Empty;
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "CalcRate - V1");
             });
 

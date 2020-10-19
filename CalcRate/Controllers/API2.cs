@@ -56,7 +56,7 @@ namespace CalcRate.Controllers
             {
                 Success = true,
                 Message = "Endereço do repository no GitHub!",
-                Data = "https://github.com/rasecdev/CalcRate/tree/master"
+                Data = "https://github.com/rasecdev/CalcRate"
             };
         }
     }
