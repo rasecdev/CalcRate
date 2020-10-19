@@ -47,5 +47,17 @@ namespace CalcRate.Controllers
                 Data = result
             };
         }
+
+        [Route("v1/showmethecode")]
+        [HttpGet]
+        public ResultViewModel ShowMeTheCode()
+        {
+            return new ResultViewModel
+            {
+                Success = true,
+                Message = "Endereço do repository no GitHub!",
+                Data = "https://github.com/rasecdev/CalcRate/tree/master"
+            };
+        }
     }
 }
